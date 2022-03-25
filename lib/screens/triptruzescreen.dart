@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:triptruzeandbosokoli/trip_sites_builder.dart';
 
 class TripTruzeScreen extends StatefulWidget {
   const TripTruzeScreen({Key? key}) : super(key: key);
@@ -23,8 +24,9 @@ class _TripTruzeScreenState extends State<TripTruzeScreen> {
         child: Scaffold(
           backgroundColor: Colors.transparent,
           body: Padding(
-            padding: const EdgeInsets.only(top: 80, left: 20, right: 20),
+            padding: const EdgeInsets.only(top: 60, left: 20, right: 20),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
                   children: [
@@ -44,19 +46,44 @@ class _TripTruzeScreenState extends State<TripTruzeScreen> {
                     )
                   ],
                 ),
+                const SizedBox(
+                  height: 30,
+                ),
                 Container(
+                  height: 60,
                   child: Padding(
-                      padding:
-                          const EdgeInsets.only(top: 8, left: 15, bottom: 8),
+                      padding: const EdgeInsets.only(
+                          top: 8, left: 15, bottom: 8, right: 15),
                       child: Row(children: const [
                         Text('search...',
                             style: TextStyle(color: Colors.white)),
-                        Icon(Icons.search)
+                        Spacer(),
+                        Icon(
+                          Icons.search,
+                          color: Colors.white,
+                        )
                       ])),
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       color: const Color.fromARGB(255, 93, 116, 128)),
-                )
+                ),
+                const SizedBox(height: 15),
+                Text('Recommended :',
+                    style: GoogleFonts.robotoSlab(
+                        color: Colors.white, fontSize: 17)),
+                const SizedBox(
+                  height: 15,
+                ),
+                const SizedBox(
+                  height: 200,
+                  child: TripSitesBuilder(),
+                ),
+                const SizedBox(
+                  height: 15,
+                ),
+                Text('Top Destination :',
+                    style: GoogleFonts.robotoSlab(
+                        color: Colors.white, fontSize: 17))
               ],
             ),
           ),
