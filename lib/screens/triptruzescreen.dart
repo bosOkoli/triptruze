@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:triptruzeandbosokoli/trip_sites_builder.dart';
+import 'package:triptruzeandbosokoli/components/topdestinaltions_builder.dart';
+import 'package:triptruzeandbosokoli/components/trip_sites_builder.dart';
 
 class TripTruzeScreen extends StatefulWidget {
   const TripTruzeScreen({Key? key}) : super(key: key);
@@ -83,7 +84,9 @@ class _TripTruzeScreenState extends State<TripTruzeScreen> {
                 ),
                 Text('Top Destination :',
                     style: GoogleFonts.robotoSlab(
-                        color: Colors.white, fontSize: 17))
+                        color: Colors.white, fontSize: 17)),
+                const SizedBox(height: 15),
+                const SizedBox(height: 110, child: TopDestinationBuilder())
               ],
             ),
           ),
