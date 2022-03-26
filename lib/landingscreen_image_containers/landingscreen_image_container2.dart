@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class HomeScreenImageContainer2 extends StatelessWidget {
-  const HomeScreenImageContainer2({
+class LandingScreenImageContainer2 extends StatelessWidget {
+  const LandingScreenImageContainer2({
     Key? key,
   }) : super(key: key);
 
@@ -20,8 +20,7 @@ class HomeScreenImageContainer2 extends StatelessWidget {
                 image: DecorationImage(
                     colorFilter: ColorFilter.mode(
                         Colors.black.withOpacity(0.5), BlendMode.dstATop),
-                    image:
-                        const AssetImage('assets/homescreen_pics/hiker4.jpg'),
+                    image: const AssetImage('assets/trips_pics/hiker4.jpg'),
                     fit: BoxFit.fitHeight),
               )),
         ),

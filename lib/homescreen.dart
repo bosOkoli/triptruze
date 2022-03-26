@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:triptruzeandbosokoli/homescreen_image_containers/homescreen_image_container1.dart';
-import 'package:triptruzeandbosokoli/homescreen_image_containers/homescreen_image_container2.dart';
-import 'package:triptruzeandbosokoli/homescreen_image_containers/homescreen_image_container3.dart';
-import 'package:triptruzeandbosokoli/homescreen_image_containers/homescreen_image_container4.dart';
+import 'package:triptruzeandbosokoli/landingscreen_image_containers/homescreen_image_container4.dart';
+import 'package:triptruzeandbosokoli/landingscreen_image_containers/landingscreen_image_container1.dart';
+import 'package:triptruzeandbosokoli/landingscreen_image_containers/landingscreen_image_container2.dart';
+import 'package:triptruzeandbosokoli/landingscreen_image_containers/landingscreen_image_container3.dart';
 import 'package:triptruzeandbosokoli/screens/triptruzescreen.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+class LandingScreen extends StatefulWidget {
+  const LandingScreen({Key? key}) : super(key: key);
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<LandingScreen> createState() => _LandingScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _LandingScreenState extends State<LandingScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -86,10 +86,10 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             Row(
               children: const [
-                HomeScreenImageContainer1(),
-                HomeScreenImageContainer2(),
-                HomeScreenImageContainer3(),
-                HomeScreenImageContainer4()
+                LandingScreenImageContainer1(),
+                LandingScreenImageContainer2(),
+                LandingScreenImageContainer3(),
+                LandingScreenImageContainer4()
               ],
             )
           ])),

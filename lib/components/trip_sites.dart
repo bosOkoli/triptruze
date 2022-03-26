@@ -16,7 +16,7 @@ class TripSites {
 
 List<TripSites> tripSites = [
   TripSites(
-      image: const AssetImage('assets/homescreen_pics/hiker3.jpg'),
+      image: const AssetImage('assets/trips_pics/hiker3.jpg'),
       child: Container(
         height: 30,
         width: 70,
@@ -41,7 +41,7 @@ List<TripSites> tripSites = [
               fontSize: 10,
               fontWeight: FontWeight.w700))),
   TripSites(
-      image: const AssetImage('assets/homescreen_pics/hiker5.jpg'),
+      image: const AssetImage('assets/trips_pics/hiker5.jpg'),
       child: Container(
         height: 30,
         width: 60,
@@ -64,7 +64,7 @@ List<TripSites> tripSites = [
           style: GoogleFonts.robotoSlab(
               color: Colors.white, fontSize: 8, fontWeight: FontWeight.w700))),
   TripSites(
-      image: const AssetImage('assets/homescreen_pics/hiker6.jpg'),
+      image: const AssetImage('assets/trips_pics/hiker6.jpg'),
       child: Container(
         height: 30,
         width: 60,

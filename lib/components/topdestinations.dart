@@ -24,7 +24,7 @@ List<TopDestinations> topDestinations = [
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
               image: const DecorationImage(
-                  image: AssetImage('assets/homescreen_pics/hiker7.jpg'),
+                  image: AssetImage('assets/trips_pics/hiker7.jpg'),
                   fit: BoxFit.cover))),
       place: Text('Norway', style: GoogleFonts.robotoSlab(color: Colors.white)),
       subPlace: Text('banders',
@@ -38,7 +38,7 @@ List<TopDestinations> topDestinations = [
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
               image: const DecorationImage(
-                  image: AssetImage('assets/homescreen_pics/hiker8.jpg'),
+                  image: AssetImage('assets/trips_pics/hiker8.jpg'),
                   fit: BoxFit.cover))),
       place: Text('Japan', style: GoogleFonts.robotoSlab(color: Colors.white)),
       subPlace: Text('Victoria',
@@ -52,7 +52,7 @@ List<TopDestinations> topDestinations = [
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
               image: const DecorationImage(
-                  image: AssetImage('assets/homescreen_pics/hiker9.jpg'),
+                  image: AssetImage('assets/trips_pics/hiker9.jpg'),
                   fit: BoxFit.cover))),
       place:
           Text('Ireland', style: GoogleFonts.robotoSlab(color: Colors.white)),
