@@ -24,7 +24,7 @@ List<TripSites> tripSites = [
             borderRadius: BorderRadius.circular(10),
             color: const Color.fromARGB(255, 93, 116, 128).withOpacity(0.5)),
         child: Center(
-          child: Text('530',
+          child: Text('\u0024530',
               style: GoogleFonts.robotoSlab(color: Colors.white, fontSize: 15)),
         ),
       ),
@@ -49,7 +49,7 @@ List<TripSites> tripSites = [
             borderRadius: BorderRadius.circular(10),
             color: const Color.fromARGB(255, 93, 116, 128).withOpacity(0.5)),
         child: Center(
-          child: Text('800',
+          child: Text('\u0024800',
               style: GoogleFonts.robotoSlab(color: Colors.white, fontSize: 15)),
         ),
       ),
@@ -72,7 +72,7 @@ List<TripSites> tripSites = [
             borderRadius: BorderRadius.circular(10),
             color: const Color.fromARGB(255, 93, 116, 128).withOpacity(0.5)),
         child: Center(
-          child: Text('900',
+          child: Text('\u0024900',
               style: GoogleFonts.robotoSlab(color: Colors.white, fontSize: 15)),
         ),
       ),

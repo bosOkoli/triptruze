@@ -30,7 +30,8 @@ List<TopDestinations> topDestinations = [
       subPlace: Text('banders',
           style: GoogleFonts.robotoSlab(
               color: const Color.fromARGB(255, 196, 195, 195), fontSize: 10)),
-      price: Text('530', style: GoogleFonts.robotoSlab(color: Colors.white))),
+      price: Text('\u0024530',
+          style: GoogleFonts.robotoSlab(color: Colors.white))),
   TopDestinations(
       child: Container(
           height: 100,
@@ -44,7 +45,8 @@ List<TopDestinations> topDestinations = [
       subPlace: Text('Victoria',
           style: GoogleFonts.robotoSlab(
               color: const Color.fromARGB(255, 196, 195, 195), fontSize: 10)),
-      price: Text('800', style: GoogleFonts.robotoSlab(color: Colors.white))),
+      price: Text('\u0024800',
+          style: GoogleFonts.robotoSlab(color: Colors.white))),
   TopDestinations(
       child: Container(
           height: 100,
@@ -59,5 +61,6 @@ List<TopDestinations> topDestinations = [
       subPlace: Text('Island',
           style: GoogleFonts.robotoSlab(
               color: const Color.fromARGB(255, 196, 195, 195), fontSize: 10)),
-      price: Text('680', style: GoogleFonts.robotoSlab(color: Colors.white)))
+      price:
+          Text('\u0024680', style: GoogleFonts.robotoSlab(color: Colors.white)))
 ];
